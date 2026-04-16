@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion - Modern Note Taking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-feather-alt"></i>
+                <span>Notes</span>
+            </div>
+            <button id="addBtn" class="add-btn">
+                <i class="fas fa-plus"></i>
+                <span>New Note</span>
+            </button>
+        </div>
+    </header>
+ 
+    <main class="container">
+        <div class="hero">
+            <h1>Your Ideas, <span class="gradient-text">Captured</span></h1>
+            <p>Create, organize, and preserve your thoughts in one beautiful place</p>
+        </div>
+        <div id="main" class="notes-grid">
+        </div>
+    </main>
+ 
+    <script src="https://kit.fontawesome.com/bf520e6492.js" crossorigin="anonymous"></script>
+    <script src="notes.js"></script>
+</body>
+</html>
